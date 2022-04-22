@@ -37,4 +37,4 @@ const mapDispatchToProps = (dispatch) => {
         addTodo
     }, dispatch)
 }
-export default connect(null, mapDispatchToProps)(CreateTodo);
+export default connect(null, mapDispatchToProps)(CreateTodo)
